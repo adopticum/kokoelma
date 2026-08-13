@@ -1,0 +1,6 @@
+# Do not commit AI models. 
+# Ignore all files under this folder, but allow Markdown docs.
+**
+!**/*.md
+!*.md
+!.gitignore
