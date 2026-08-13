@@ -1,0 +1,21 @@
+# Instruct version control and AI agents to ignore some files and folder patterns.
+# The following files and directories will be ignored.
+
+# Supabase
+.branches
+.temp
+
+# dotenvx
+.env.keys
+.env.local
+.env.*.local
+
+# Ignore any file or directory whose name contains "secret".
+# Keep in mind that patterns are case-sensitive by default.
+**/*secret*
+**/*secret*/**
+
+# Build state
+dist/
+build/
+*.lock

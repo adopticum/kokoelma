@@ -1,0 +1,14 @@
+# Supabase local dev environment.
+# Usage: From the project root folder run:
+# source supabase-env 
+
+# SSL fix
+export PGSSLMODE=require
+export PGSSLROOTCERT="$PWD/secrets/prod-ca-2021.crt"
+
+# Load secret API key.
+read -r SUPABASE_SECRET_KEY < "$PWD/secrets/secret_api_key" 
+export SUPABASE_SECRET_KEY
+
+# URL for prod server (not secret).
+export SUPABASE_URL="https://zwumyqdaraejcrpkmqpe.supabase.co"
