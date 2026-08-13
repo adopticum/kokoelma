@@ -1,0 +1,16 @@
+{
+  "name": "supabase",
+  "version": "1.0.0",
+  "description": "The supabase directory of this repo contains Infrastructure As Code (IaC) that can set up the Supabase backend for this project. The purpose is to have a deterministic repeatable definition and a highly automated workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.0"
+  }
+}
