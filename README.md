@@ -7,6 +7,12 @@ The purpose is to create helpful tools to build datasets of photos as a group ef
 Collecting photos is a key activity for every data driven approach to computer vision.
 This is a result from a project in the forestry value chain, but the result is applicable in any field.
 
+## License
+Except where otherwise noted, content in this repository is licensed under a 
+[Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)
+
+![CC BY](https://creativecommons.org/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/license_badges/big/by.svg)
+
 ## User documentation
 End user documentation is not provided here. 
 
@@ -23,6 +29,7 @@ This repo is diveded into the main folders for separate parts.
 - `photocollectionapp` is the user app built in __Flutter__.
 
 See each folder for further documentation.
+
 
 ### Requirements
 
@@ -77,8 +84,8 @@ Adopticum has a [web page](https://www.adopticum.se) and a [GitHub page](https:/
 🔰 This app is currenly an early working version for test and development.
 
 ### ToDo (recommended)
-- Backup and restore procedures for stored data like (user accounts, photos and metadata).
-- Admin UX for managing users and groups.
+- [ ] Backup and restore procedures for stored data (e.g. user accounts, photos and metadata).
+- [ ] Admin UX for managing users and groups.
 
 ### Changelog (optional)
 
